@@ -39,7 +39,7 @@ namespace MarsRoverTests
             //check to see if creating a new Message object properly sets the Name property of the class
             //how to grab the name within a new instance of a class?
 
-            Message msg = new Message("This is the name");
+            Message msg = new Message("This is the name",commands);
 
             Assert.AreEqual(msg.Name, "This is the name");        
             

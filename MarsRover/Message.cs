@@ -17,16 +17,7 @@ namespace MarsRover
             }
         }
 
-        public Message(string name)
-        {
-            this.Name = name;
-
-            if (String.IsNullOrEmpty(name))
-            {
-                throw new ArgumentNullException(name, "Name is required");
-            }
-        }
-
+      
 
     }
 }

@@ -49,6 +49,7 @@ namespace MarsRover
                 if(Mode.Equals("LOW_POWER") || GeneratorWatts<50)
                     {
                     break;
+                    //throw new Exception ("Cannot move while in low power");
                     }
 
                 //else if (Mode.Equals("NORMAL") && cmd.CommandType.Equals("MOVE"))
